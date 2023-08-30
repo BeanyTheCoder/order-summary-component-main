@@ -1,11 +1,10 @@
 # Frontend Mentor - Order summary component solution 🚀
 
-![preview]()
+![preview](./design/desktop-preview.jpg)
 
 ## Welcome 👋
 
-This is a solution to the [Order summary challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/
-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Order summary challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents 📑
 
@@ -16,9 +15,7 @@ This is a solution to the [Order summary challenge on Frontend Mentor](https://w
 - [My process 🏗️](#my-process-🏗️)
   - [Built with 🛠️](#built-with-🛠️)
   - [What I learned 🧠](#what-i-learned-🧠)
-  - [Continued development 🚀](#continued-development-🚀)
   - [Useful resources 📚](#useful-resources-📚)
-- [Acknowledgments 🙏](#acknowledgments-🙏)
 - [Contact 📧](#contact-📧)
 - [Author 👤](#author-👤)
 
@@ -33,16 +30,14 @@ Users should be able to:
 ### Screenshots 📷
 
 _My solution (Desktop):_
-
-![image of desktop solution]()
+![image of desktop solution](./readme-images/desktop.png)
 
 _My solution (Mobile)_
-
-![image of mobile solution]()
+![image of mobile solution](./readme-images/mobile.png)
 
 ### Links 🔗
 
-- Solution repo on Github: [here]()
+- Solution repo on Github: [here](https://github.com/BeanyTheCoder/order-summary-component-main)
 - Solution link on Front End Mentor: [here]()
 - Live site link: [here](https://beanythecoder.github.io/order-summary-component-main)
 
@@ -50,24 +45,34 @@ _My solution (Mobile)_
 
 ### Built with 🛠️
 
-- HTML & CSS
+- HTML
+- CSS(native nesting)
 
 ### What I learned 🧠
 
-<!--Oniichan-->
+I tried out a bit of nesting in _native_ css
 
-### Continued development 🚀
+```css
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 
-<!--Oniichan-->
+  /* hover state done using css nesting */
+  &:hover {
+    background-color: blue;
+  }
+}
+```
 
 ### Useful resources 📚
 
-<!--Oniichan-->
+- Video on CSS Native Nesting: https://www.youtube.com/watch?v=YnWPeA6l5UE&t=408s&ab_channel=KevinPowell
 
-## Acknowledgments 🙏
-
-<!--Oniichan-->
-
+- Online Color Picker(some colors in the design were not provided): https://imagecolorpicker.com/en
 ## Contact 📧
 
 - Frontend Mentor - [@BeanyTheCoder](https://www.frontendmentor.io/profile/BeanyTheCoder)
