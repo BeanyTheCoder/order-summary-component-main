@@ -38,7 +38,7 @@ _My solution (Mobile)_
 ### Links 🔗
 
 - Solution repo on Github: [here](https://github.com/BeanyTheCoder/order-summary-component-main)
-- Solution link on Front End Mentor: [here]()
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/order-summary-component-html-and-css-BRsjnUBMWt)
 - Live site link: [here](https://beanythecoder.github.io/order-summary-component-main)
 
 ## My process 🏗️
@@ -73,6 +73,7 @@ button {
 - Video on CSS Native Nesting: https://www.youtube.com/watch?v=YnWPeA6l5UE&t=408s&ab_channel=KevinPowell
 
 - Online Color Picker(some colors in the design were not provided): https://imagecolorpicker.com/en
+
 ## Contact 📧
 
 - Frontend Mentor - [@BeanyTheCoder](https://www.frontendmentor.io/profile/BeanyTheCoder)
